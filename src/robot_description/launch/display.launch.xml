@@ -11,5 +11,5 @@
     <node pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui"/>
 
     <!-- Node for RViz -->
-    <node pkg="rviz2" exec="rviz2" output="screen"/>
+    <node pkg="rviz2" exec="rviz2" output="screen" args="basic_robot.rviz"/>
 </launch>
