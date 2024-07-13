@@ -10,8 +10,8 @@ find_package(ament_cmake REQUIRED)
 
 # Install the URDF and launch files
 install(
-  DIRECTORY urdf/ launch/ rviz/
-  DESTINATION share/${PROJECT_NAME}
+  DIRECTORY urdf  launch  rviz
+  DESTINATION share/${PROJECT_NAME}/
 )
 
 ament_package()
