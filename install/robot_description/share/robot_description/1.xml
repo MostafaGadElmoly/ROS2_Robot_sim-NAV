@@ -13,5 +13,6 @@
 
     <!-- Node for RViz -->
 
-    <node pkg="rviz2" exec="rviz2" output="screen" args=" -d $(var rviz_config)"/>    
+    <node pkg="rviz2" exec="rviz2" output="screen" args=" -d $(var rviz_config)"/>
+    
 </launch>
