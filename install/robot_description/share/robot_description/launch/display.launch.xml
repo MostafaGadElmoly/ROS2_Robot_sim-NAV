@@ -1,17 +1,1 @@
-<launch>
-    <!-- Include the xacro command to process the URDF file -->
-    <let name="urdf_path" value="$(find-pkg-share robot_description)/urdf/Robot.urdf.xacro"/>
-    <let name="rviz_config" value="$(find-pkg-share robot_description)/rviz/basic_robot.rviz"/>
-
-    <!-- Node for robot_state_publisher -->
-    <node pkg="robot_state_publisher" exec="robot_state_publisher">
-        <param name="robot_description" value="$(command 'xacro $(var urdf_path)')"/>
-    </node>
-
-    <!-- Node for joint_state_publisher_gui -->
-    <node pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui"/>
-
-    <!-- Node for RViz -->
-
-    <node pkg="rviz2" exec="rviz2" output="screen" args=" -d $(var rviz_config)"/>    
-</launch>
+/home/mostafa/ros2/robot_ws/src/robot_description/launch/display.launch.xml
