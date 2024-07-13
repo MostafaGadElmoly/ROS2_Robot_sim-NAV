@@ -1,4 +1,4 @@
-/home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//urdf/Robot.urdf
+/home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//urdf/Robot.urdf.xacro
 /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//launch/display.launch.xml
 /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//rviz/basic_robot.rviz
 /home/mostafa/ros2/robot_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description

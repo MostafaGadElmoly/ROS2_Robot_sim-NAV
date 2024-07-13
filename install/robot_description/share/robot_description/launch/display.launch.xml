@@ -1,6 +1,6 @@
 <launch>
     <!-- Include the xacro command to process the URDF file -->
-    <let name="urdf_path" value="$(find-pkg-share robot_description)/urdf/Robot.urdf"/>
+    <let name="urdf_path" value="$(find-pkg-share robot_description)/urdf/Robot.urdf.xacro"/>
     <let name="rviz_config" value="$(find-pkg-share robot_description)/rviz/basic_robot.rviz"/>
 
     <!-- Node for robot_state_publisher -->

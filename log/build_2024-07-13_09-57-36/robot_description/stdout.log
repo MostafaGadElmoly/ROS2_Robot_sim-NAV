@@ -1,8 +1,8 @@
 -- Install configuration: ""
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//urdf
--- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//urdf/Robot.urdf
+-- Installing: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//urdf/Robot.urdf.xacro
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//launch
--- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//launch/display.launch.xml
+-- Installing: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//launch/display.launch.xml
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//rviz
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//rviz/basic_robot.rviz
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description

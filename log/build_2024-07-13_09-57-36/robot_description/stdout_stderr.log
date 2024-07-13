@@ -1,10 +1,10 @@
 -- Install configuration: ""
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//urdf
--- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//urdf/Robot.urdf
+-- Installing: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//urdf/Robot.urdf.xacro
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//launch
--- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//launch/display.launch.xml
+-- Installing: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//launch/display.launch.xml
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//rviz
--- Installing: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//rviz/basic_robot.rviz
+-- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description//rviz/basic_robot.rviz
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
@@ -15,7 +15,7 @@
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description/local_setup.sh
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description/local_setup.zsh
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description/local_setup.dsv
--- Installing: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description/package.dsv
+-- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description/package.dsv
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
 -- Up-to-date: /home/mostafa/ros2/robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
