@@ -25,6 +25,13 @@
                 <origin xyz="0.0 0.0 0.0" rpy="${pi/2} 0.0 0.0"/>
                 <material name="Blue"/>
             </visual>
+            <collision>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}"/>
+                </geometry>
+                <origin xyz="0.0 0.0 0.0" rpy="${pi/2} 0.0 0.0"/>
+            </collision>
+            <xacro:cylinder_inerta m="1.0" r="${wheel_radius}" h="${wheel_length}" xyz="0.0 0.0 0.0" rpy="${pi/2} 0.0 0.0"/>
         </link>
     </xacro:macro>
 
@@ -45,6 +52,13 @@
             <origin xyz="0 0 ${base_height / 2}" rpy="0 0 0"/>
             <material name="Green"/>
         </visual>
+        <collision>
+            <geometry>
+                <box size="${base_length} ${base_width} ${base_height}"/>
+            </geometry>
+            <origin xyz="0 0 ${base_height / 2}" rpy="0 0 0"/>
+        </collision>
+        <xacro:box_inertia m="5.0" l="${base_length}" w="${base_width}" h="${base_height}"  xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
     </link>
 
 
@@ -55,6 +69,13 @@
             </geometry>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
         </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.05"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </collision>
+        <xacro:ball_inertia m="0.1" r="0.05" xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
     </link>
 
     <link name="base_footprint"/>
@@ -93,5 +114,4 @@
         <parent link="base_link"/>
         <child link="base_footprint"/>
     </joint>
-    
 </robot>
